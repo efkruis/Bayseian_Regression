@@ -699,7 +699,7 @@ After creating the model, then do the following:
 (2) By how much does the *median regression coefficient* for *age* differ between *men* and *women*?
 (3) According to the estimated posterior distribution, the *regression coefficient* for *age* differs between *women* and *men* with *85%* probability in what interval?
 
-**Responses 6.1**: *The 30th percentile of the interaction term is  -131.502. The median regression coeffiecent for age differs between men and women by 84.158 . With 85% probability age differs between men and women for age from 895.7023 to 1069.76823. *.
+**Responses 6.1**: *(1) The 30th percentile of the interaction term is  -131.502.(2) The median regression coefficient for age differs between men and women by 84.158 .(3) With 85% probability age differs between men and women for age from -213.7967 to 49.63355*.
 
 ```{r, task6_1}
 mod_3 <- stan_glm(
@@ -906,7 +906,7 @@ For your last task, you will respond to conceptual questions based on the concep
 
 **Question 8.2**: What is a Bayesian credible interval?
 
-**Response 8.2**: *The Bayesian credible interval is *.
+**Response 8.2**: *The Bayesian credible interval describes and summarizes the uncertainty related to the unknown parameters you could be trying to estimate. In otherwords, the credible interval is an interval within which an unobserved parameter has a given probability.  *.
 
 **Question 8.3**: The following frequency table counts how many sales employees had a *profit* or *loss* utilizing three different strategies *A*, *B*, and *C*:
 
@@ -921,8 +921,8 @@ Compute the following:
 (2) *likelihood* of a *profit* under *all three strategies*;
 (3) *posterior probability* of *all three strategies* given a *profit*.
 
-**Response 8.3**: *The prior probability of a profit under strategy A is 27.5 percent. The prior probability of a profit under strategy B is 37.5 percent. The prior probability of a profit under strategy C is 35 percent*.
+**Response 8.3**: *The prior probability of a profit under strategy A is .186. The prior probability of a profit under strategy B is .375. The prior probability of a profit under strategy C is .35 *.
 
-*The likelihood of a profit under strategy A is 63.6 percent. The likelihood of a profit under strategy B is 20 percent. The likelihood of a profit under strategy C is 51.1 percent.*.
+*The likelihood of a profit under strategy A is 0.9408. The likelihood of a profit under strategy B is 0.2. The likelihood of a profit under strategy C is .6428.*.
 
-*The posterior probabiliy of strategy A is 36.8 percent. The posterior probabiliy of strategy B is 15.8 percent. The posterior probabiliy of strategy C is 37.6 percent *
+*The posterior probability of strategy A is 0.368. The posterior probability of strategy B is .1578. The posterior probability of strategy C is 0.4736 *

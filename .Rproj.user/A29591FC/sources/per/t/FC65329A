@@ -1,26 +1,26 @@
 {
-    "collab_server" : "",
-    "contents" : "",
-    "created" : 1611602168773.000,
-    "dirty" : false,
-    "encoding" : "UTF-8",
-    "folds" : "",
-    "hash" : "3545931380",
-    "id" : "FC65329A",
-    "lastKnownWriteTime" : 1612842931,
-    "last_content_update" : 1612842931837,
-    "path" : "~/Documents/year_2/WQ21/mgt_592/assignments/Bayseian_regression/scripts/bayesian_regression_assignment.rmd",
-    "project_path" : "scripts/bayesian_regression_assignment.rmd",
-    "properties" : {
-        "chunk_output_type" : "console",
-        "cursorPosition" : "17,56",
-        "scrollLine" : "0"
+    "id": "FC65329A",
+    "path": "~/Library/Mobile Documents/com~apple~CloudDocs/year_2/WQ21/mgt_592/assignments/Bayseian_regression/scripts/bayesian_regression_assignment.rmd",
+    "project_path": "scripts/bayesian_regression_assignment.rmd",
+    "type": "r_markdown",
+    "hash": "2862744097",
+    "contents": "",
+    "dirty": false,
+    "created": 1611602168773.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "chunk_output_type": "console",
+        "cursorPosition": "927,76",
+        "scrollLine": "911",
+        "Source": "Source"
     },
-    "read_only" : false,
-    "read_only_alternatives" : [
-    ],
-    "relative_order" : 2,
-    "source_on_save" : false,
-    "source_window" : "",
-    "type" : "r_markdown"
+    "folds": "",
+    "lastKnownWriteTime": 1616186181,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1616186181403,
+    "read_only": false,
+    "read_only_alternatives": []
 }
